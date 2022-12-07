@@ -39,6 +39,20 @@
             <version>7.6.1</version>
             <scope>test</scope>
         </dependency>
+        <!--We use gson for serilazation. while post the expected data java give us a error so we need toadd gson dependency-->
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10</version>
+        </dependency>
+        <!--we use codehous.jackson to use ObjectMapper-->
+        <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
 
 
     </dependencies>
